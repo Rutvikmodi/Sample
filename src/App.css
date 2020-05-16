@@ -1,0 +1,125 @@
+.main{
+    min-height: 100%;
+    min-width: 100%;
+
+}
+
+.companybox {
+    width: 580px;
+    height: 500px;
+    background: black;
+    opacity: 0.85;
+    background-size: cover;
+    color: #fff;
+    top: 80%;
+    left: 50%;
+    margin-bottom: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 30px;
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.companybox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.companybox button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: ivory;
+    outline: none;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
+    width: 520px;
+}
+
+    .button:hover {
+        background-color: #3e8e41;
+    }
+
+    .button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+/*.loginbox input[type="radio"] {
+    inline-size: 4rem;
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+  }
+  .loginbox label {
+    float: left;
+    width: 50px;
+  }*/
+
+
+.companybox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+    .companybox input[type="submit"]:hover {
+        cursor: pointer;
+        background: #ffc107;
+        color: #000;
+    }
+
+.companybox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+    .companybox a:hover {
+        color: #ffc107;
+    }
+
+.companybox textarea {
+    position: center;
+    width: 517px;
+    height: 150px;
+}
